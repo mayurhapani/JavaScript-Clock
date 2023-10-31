@@ -5,13 +5,13 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 8px;
-  font-weight: 800;
+  font-size: 6px;
+  font-weight: 200;
   background-color: black;
 }
 .clock {
-  height: 300px;
-  width: 300px;
+  height: 180px;
+  width: 180px;
   background-color: black;
   border-radius: 50%;
   position: relative;
@@ -62,7 +62,7 @@ body {
   width: 100%;
 
   text-align: center;
-  padding-top: 12px;
+  padding-top: 10px;
 }
 .minute {
   position: absolute;
@@ -75,7 +75,7 @@ body {
 .minute_main {
   height: 100%;
   width: 100%;
-  transform: rotate(81deg) translate(0px, -24px);
+  transform: rotate(81deg) translate(0px, -17px);
 }
 .minute_out {
   position: absolute;
@@ -83,7 +83,7 @@ body {
   width: 100%;
 
   text-align: center;
-  padding-top: 45px;
+  padding-top: 35px;
 }
 .hour {
   position: absolute;
@@ -96,7 +96,7 @@ body {
 .hour_main {
   height: 100%;
   width: 100%;
-  transform: rotate(87deg) translate(0px, -40px);
+  transform: rotate(87deg) translate(0px, -30px);
 }
 .hour_out {
   position: absolute;
@@ -104,8 +104,8 @@ body {
   width: 100%;
 
   text-align: center;
-  padding-top: 80px;
-  font-size: 15px;
+  padding-top: 60px;
+  font-size: 12px;
 }
 .d_clock {
   position: absolute;
@@ -930,16 +930,20 @@ body {
 }
 
 .view {
-  border: 2px solid rgb(232, 232, 232);
+  border: 1px solid rgb(232, 232, 232);
   border-right: none;
   border-radius: 8px 0 0 8px;
-  height: 20px;
-  width: 60px;
+  height: 12px;
+  width: 44px;
   position: absolute;
   right: 0;
-  top: 45.5%;
+  top: 46%;
 }
 .po_abs {
   position: absolute;
   transition: all 1s linear;
+}
+
+h2 {
+  font-size: 15px;
 }
