@@ -1,0 +1,40 @@
+@media (min-width: 576px) {
+  .clock {
+    height: 400px;
+    width: 400px;
+  }
+  body {
+    font-size: 10px;
+    font-weight: 800;
+    font-size: 12px;
+  }
+  .hour_out {
+    font-size: 20px;
+  }
+  .second_out {
+    padding-top: 15px;
+  }
+  .minute_out {
+    padding-top: 75px;
+  }
+  .minute_main {
+    transform: rotate(82deg) translate(0px, -38px);
+  }
+  .hour_main {
+    transform: rotate(87deg) translate(0px, -64px);
+  }
+  .hour_out {
+    padding-top: 130px;
+    font-size: 20px;
+  }
+  .view {
+    height: 28px;
+    width: 85px;
+  }
+}
+@media (min-width: 768px) {
+  .view {
+    height: 28px;
+    width: 85px;
+  }
+}
