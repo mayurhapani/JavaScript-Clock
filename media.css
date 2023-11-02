@@ -33,6 +33,17 @@
     height: 28px;
     width: 85px;
   }
+
+  #date {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+  #day {
+    font-size: 25px;
+  }
 }
 @media (min-width: 768px) {
   .view {
