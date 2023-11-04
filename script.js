@@ -5,11 +5,11 @@ setInterval(function () {
   let minutes = time.getMinutes();
   let seconds = time.getSeconds();
   let date = time.getDate();
-  let month = time.getMonth();
+  let month = time.getMonth() + 1;
   let year = time.getFullYear();
-  let day = time.getDate();
+  let day = time.getDay();
   console.log(date, month, year, day);
-  var dayOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+  var dayOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
   document.getElementById("date").innerHTML = date + "-" + month + "-" + year;
   document.getElementById("day").innerHTML = dayOfWeek[day];
