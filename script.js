@@ -8,8 +8,8 @@ setInterval(function () {
   let month = time.getMonth();
   let year = time.getFullYear();
   let day = time.getDate();
-  // console.log(date, month, year, day);
-  var dayOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  console.log(date, month, year, day);
+  var dayOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
   document.getElementById("date").innerHTML = date + "-" + month + "-" + year;
   document.getElementById("day").innerHTML = dayOfWeek[day];
