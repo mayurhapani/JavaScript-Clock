@@ -150,18 +150,18 @@ setInterval(function () {
   minute_num58.style = `--c1_minute:${-1 * mdeg + 258}deg`;
   minute_num59.style = `--c1_minute:${-1 * mdeg + 264}deg`;
 
-  hour_num1.style = `--c1_hour:${-1 * hdeg + 300}deg`;
-  hour_num2.style = `--c1_hour:${-1 * hdeg + 330}deg`;
-  hour_num3.style = `--c1_hour:${-1 * hdeg + 360}deg`;
-  hour_num4.style = `--c1_hour:${-1 * hdeg + 30}deg`;
-  hour_num5.style = `--c1_hour:${-1 * hdeg + 60}deg`;
-  hour_num6.style = `--c1_hour:${-1 * hdeg + 90}deg`;
-  hour_num7.style = `--c1_hour:${-1 * hdeg + 120}deg`;
-  hour_num8.style = `--c1_hour:${-1 * hdeg + 150}deg`;
-  hour_num9.style = `--c1_hour:${-1 * hdeg + 180}deg`;
-  hour_num10.style = `--c1_hour:${-1 * hdeg + 210}deg`;
-  hour_num11.style = `--c1_hour:${-1 * hdeg + 240}deg`;
-  hour_num12.style = `--c1_hour:${-1 * hdeg + 270}deg`;
+  hour_num1.style = `--c1_hour:${-1 * hdeg + 305}deg`;
+  hour_num2.style = `--c1_hour:${-1 * hdeg + 335}deg`;
+  hour_num3.style = `--c1_hour:${-1 * hdeg + 5}deg`;
+  hour_num4.style = `--c1_hour:${-1 * hdeg + 35}deg`;
+  hour_num5.style = `--c1_hour:${-1 * hdeg + 65}deg`;
+  hour_num6.style = `--c1_hour:${-1 * hdeg + 95}deg`;
+  hour_num7.style = `--c1_hour:${-1 * hdeg + 125}deg`;
+  hour_num8.style = `--c1_hour:${-1 * hdeg + 155}deg`;
+  hour_num9.style = `--c1_hour:${-1 * hdeg + 185}deg`;
+  hour_num10.style = `--c1_hour:${-1 * hdeg + 215}deg`;
+  hour_num11.style = `--c1_hour:${-1 * hdeg + 245}deg`;
+  hour_num12.style = `--c1_hour:${-1 * hdeg + 275}deg`;
 
   // degital clock
   if (hours >= 12) {

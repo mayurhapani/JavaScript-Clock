@@ -96,7 +96,7 @@ body {
 .hour_main {
   height: 100%;
   width: 100%;
-  transform: rotate(87deg) translate(0px, -30px);
+  transform: rotate(84deg) translate(0px, -30px);
 }
 .hour_out {
   position: absolute;
@@ -104,7 +104,7 @@ body {
   width: 100%;
 
   text-align: center;
-  padding-top: 60px;
+  padding-top: 58px;
   font-size: 12px;
 }
 .d_clock {
@@ -951,7 +951,7 @@ h2 {
   border: 1px solid rgb(232, 232, 232);
   border-right: none;
   border-radius: 8px 0 0 8px;
-  height: 12px;
+  height: 14px;
   width: 44px;
   position: absolute;
   right: 0;
